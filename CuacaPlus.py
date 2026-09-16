@@ -37,7 +37,6 @@ DAFTAR_KOTA = ambil_daftar_kota(NAMA_FILE_EXCEL, NAMA_KOLOM_KOTA)
 #---- menu utama - tambahan -----
 
 menu = st.sidebar.selectbox(
-    "==== MENU GEDE ====",
     "📋 Menu Utama",
     ["☀️Cuaca Saat Ini & Ramalan", "🔮 Prediksi Suhu 7 Hari ke Depan"]
 )
